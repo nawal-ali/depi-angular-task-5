@@ -1,1 +1,10 @@
-<p>home works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-3 my-3" *ngFor="let p of products">
+            <div class="card p-3">
+                <h5 class="card-title">{{p.name}}</h5>
+                <p class="card-body">{{p.price}}</p>
+            </div>
+        </div>
+    </div>
+</div>
